@@ -10,7 +10,7 @@ public class Main {
     System.out.println(toList(new String[]{"asd", "qwe", "rty"}));
   }
 
-  //This method takes array of some objects and convert it to the list of the same objects
+  /**This method takes array of some objects and convert it to the list of the same objects. */
   public static <T> List<T> toList(T[] array) {
     List<T> result = new ArrayList<>();
     if (array != null) {

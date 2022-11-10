@@ -45,5 +45,6 @@ public class Main {
 
     appleBox.merge(appleBox2);
     System.out.println(appleBox.getWeight());
+    System.out.println(appleBox2.getWeight());
   }
 }
